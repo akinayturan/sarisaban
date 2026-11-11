@@ -29,7 +29,7 @@
   <div class="shell">
     <h2 id="explore-title">Arşivi keşfedin</h2>
     <div class="cards">
-      {{ range slice "/tarih" "/yerler" "/aileler" "/mubadele" }}
+      {{ range slice "/tarih" "/yerler" "/aileler" "/mubadele" "/gorseller" }}
         {{ with site.GetPage . }}
           <article>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h3>

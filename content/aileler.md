@@ -14,3 +14,16 @@ Aşağıdaki kayıtlar Cumhuriyet Arşivi’nin **130-16-13** fonuna ait tasfiye
 | Hacı İsmail oğlu Hüseyin | 31 Ocak 1924 | 130-16-13 / 1001 / 3955 / 12 |
 
 Katalog özetleri ilk araştırma kaynağıdır. Türkiye’deki yerleşim ve sonraki kuşaklarla bağ için isimli iskân kayıtları, aile belgeleri ve sözlü anlatılar gerekir. [Devlet Arşivleri Belge Tarama Sistemi](https://katalog.devletarsivleri.gov.tr/)
+
+## Köy anlatılarında aile lakapları
+
+Serhira’daki 2018 derlemesinde Kavacık, Kolçalar, Koçoğulları, Nedirli, Muratcık ve Ulucak için aile lakapları geçiyor. Aşağıda köy başlıklarından seçilmiş örnekler var. Bunlar kaynakta geçen tarihî lakaplar. Bir lakabı bugünkü soyadıyla veya bir haneyle eşleştirmek için isimli aile ve iskân belgeleri gerekir. [Sertaç Öztepe Cihan, Serhira](https://serhira.blogspot.com/2018/03/bir-sarisaban-hikayesi-ve-sarisabana.html)
+
+| Kaynakta geçen köy | Örnek aile lakapları |
+| --- | --- |
+| Kavacık | Nizamoğulları, Kalıncıoğulları |
+| Kolçalar | Çelekoğulları, Delibaşoğulları |
+| Koçoğulları | Abdioğulları, Kırkhasanoğulları |
+| Nedirli | Karaosmanoğulları, Kantacıoğulları |
+| Muratcık | Himmetoğulları, Bayramdedeoğulları |
+| Ulucak | Babaoğulları, Yeleklioğulları |

@@ -19,3 +19,14 @@ description: Sarışaban Hafızası’nda kullanılan resmî kayıtlar, araştı
 ## Görsel
 
 - [DocWoKav · Chrysoupoli yakınında Nestos kıyısı](https://commons.wikimedia.org/wiki/File:Nestos_riverside_forest_at_cafe_nestos,_Chrysoupolis,_Greece.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Ana sayfada görsel yeniden boyutlandırılmış ve yerleşime göre kırpılmıştır.
+
+## Aile anlatıları ve arşiv kopyaları
+
+- [Sertaç Öztepe Cihan · Bir Sarışaban Hikayesi ve Sarışaban’a Ait Bilinenler](https://serhira.blogspot.com/2018/03/bir-sarisaban-hikayesi-ve-sarisabana.html) · 14 Mart 2018. Bayram Ülker’in aile hatıraları, köy adları ve aile lakapları.
+- [Lozan Mübadilleri Vakfı · Sarışaban](https://web.archive.org/web/20260216181803/http://www.lozanmubadilleri.org.tr/mubadele-bolgeleri/sarisaban/) · 16 Şubat 2026 tarihli Wayback Machine kopyası. Kazanın coğrafyası, geçim kaynakları ve iskân bölgeleri.
+- [Ordu Üniversitesi açık arşivi](https://earsiv.odu.edu.tr/jspui/bitstream/11489/601/1/10417431.pdf) · Sarışaban köylerinden Samsun’a iskân örnekleri.
+- [Osmanlı Araştırmaları, sayı 43](https://dergipark.org.tr/tr/download/article-file/112136) · Bölgedeki tütün üretimi.
+
+## Fotoğraf ve video künyeleri
+
+Görsellerin kaynakları, kullanım koşulları ve video bağlantıları [Fotoğraflar ve videolar]({{< relref "/gorseller" >}}) sayfasında yer alıyor.

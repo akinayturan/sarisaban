@@ -29,3 +29,7 @@ disableKinds = ["taxonomy", "term"]
     name = 'Kaynakça'
     pageRef = '/kaynakca'
     weight = 50
+  [[menus.main]]
+    name = 'Fotoğraf ve video'
+    pageRef = '/gorseller'
+    weight = 45
