@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="shell hero" aria-labelledby="hero-title">
+  <div class="hero-text">
+    <p class="location">Kavala · Yunanistan</p>
+    <h1 id="hero-title">Sarışaban<br><em lang="el">Χρυσούπολη</em></h1>
+    <p class="lead">Bugünkü Chrysoupoli’nin eski adları, Sarışaban kazasının aile kayıtları ve mübadeleyle değişen yerleşimlerin tarihi.</p>
+    <div class="actions">
+      <a class="button" href="{{ (site.GetPage "/tarih").RelPermalink }}">Tarihi keşfet <span aria-hidden="true">↗</span></a>
+      <a href="{{ (site.GetPage "/aileler").RelPermalink }}">Aile kayıtlarına bak</a>
+    </div>
+  </div>
+  <figure>
+    {{ with resources.Get "nestos.jpg" }}
+      {{ $image := .Resize "1100x webp q82" }}
+      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="Chrysoupoli yakınında Nestos Nehri kıyısı" fetchpriority="high">
+    {{ end }}
+    <figcaption>Chrysoupoli yakınında Nestos kıyısı · <a href="https://commons.wikimedia.org/wiki/File:Nestos_riverside_forest_at_cafe_nestos,_Chrysoupolis,_Greece.jpg">DocWoKav</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
+  </figure>
+</section>
+
+<dl class="shell facts" aria-label="Sarışaban hakkında temel bilgiler">
+  <div><dt>Bugünkü adı</dt><dd>Chrysoupoli · <span lang="el">Χρυσούπολη</span></dd><dd class="cite"><a href="https://www.visitkavala.gr/en/sightseeing/xrisoupoli/">Visit Kavala</a></dd></div>
+  <div><dt>Tarihî adı</dt><dd>Sarışaban · <span lang="el">Σαρή Σαμπάν</span></dd><dd class="cite"><a href="https://pandektis.ekt.gr/pandektis/handle/10442/170226">Pandektis</a></dd></div>
+  <div><dt>Ad değişikliği</dt><dd>1925 · <span lang="el">Χρυσούπολις</span></dd><dd class="cite"><a href="https://eetaa.gr/eetaa/metaboles/dkmet_details.php?id=4149">Resmî Gazete 40 B</a></dd></div>
+  <div><dt>Yerleşim nüfusu</dt><dd>8.824 kişi (2021)</dd><dd class="cite"><a href="https://www.statistics.gr/documents/20181/17286366/FEK-2024-Tefxos-B-02090.pdf/d4daffb1-7210-a172-9729-52d4771ae785">ELSTAT</a></dd></div>
+</dl>
+
+<section class="explore" aria-labelledby="explore-title">
+  <div class="shell">
+    <h2 id="explore-title">Arşivi keşfedin</h2>
+    <div class="cards">
+      {{ range slice "/tarih" "/yerler" "/aileler" "/mubadele" }}
+        {{ with site.GetPage . }}
+          <article>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h3>
+            <p>{{ .Description }}</p>
+          </article>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="shell place" aria-labelledby="place-title">
+  <div>
+    <h2 id="place-title">Chrysoupoli bugün</h2>
+    <p>Nestos Belediyesi’nin merkezi olan Chrysoupoli, Kavala’nın doğusunda Nestos ovasında yer alır.</p>
+    <div class="actions">
+      <a class="button" href="https://www.google.com/maps/dir/?api=1&amp;destination=40.98470%2C24.70260">Yol tarifi</a>
+      <a href="{{ (site.GetPage "/yerler").RelPermalink }}">Yerler ve nüfus</a>
+    </div>
+  </div>
+  <figure>
+    <iframe title="Chrysoupoli haritası" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=24.650%2C40.955%2C24.750%2C41.015&amp;layer=mapnik&amp;marker=40.98470%2C24.70260"></iframe>
+    <figcaption><a href="https://www.openstreetmap.org/?mlat=40.98470&amp;mlon=24.70260#map=14/40.98470/24.70260">OpenStreetMap’te aç</a></figcaption>
+  </figure>
+</section>
+{{ end }}

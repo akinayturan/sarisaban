@@ -1,0 +1,31 @@
+baseURL = 'http://localhost:1314/'
+title = 'Sarışaban Hafızası'
+locale = 'tr-TR'
+defaultContentLanguage = 'tr'
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = 'Sarışaban ve bugünkü Chrysoupoli’nin adları, yerleri, aileleri ve mübadele kayıtları.'
+
+[menus]
+  [[menus.main]]
+    name = 'Tarih'
+    pageRef = '/tarih'
+    weight = 10
+  [[menus.main]]
+    name = 'Yerler'
+    pageRef = '/yerler'
+    weight = 20
+  [[menus.main]]
+    name = 'Aileler ve kişiler'
+    pageRef = '/aileler'
+    weight = 30
+  [[menus.main]]
+    name = 'Mübadele'
+    pageRef = '/mubadele'
+    weight = 40
+  [[menus.main]]
+    name = 'Kaynakça'
+    pageRef = '/kaynakca'
+    weight = 50

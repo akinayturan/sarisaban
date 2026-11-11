@@ -1,0 +1,74 @@
+:root {
+  --paper: #f7f5ed;
+  --panel: #fffdf7;
+  --wash: #ebeee7;
+  --ink: #202b29;
+  --muted: #4d605b;
+  --accent: #1b554c;
+  --line: #cdd8cc;
+  --serif: "Baskervville", Georgia, serif;
+  --sans: "DM Sans", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 var(--sans); }
+a { color: var(--accent); text-underline-offset: .2em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+p, figure { margin: 0; }
+h1, h2, h3 { margin: 0; font: 400 1em/1.12 var(--serif); }
+h2 { font-size: clamp(2rem, 4vw, 3.25rem); }
+h3 { font-size: 1.55rem; }
+.shell { width: min(1160px, calc(100% - 3rem)); margin-inline: auto; }
+.skip { position: absolute; left: 1rem; top: 1rem; transform: translateY(-200%); background: var(--panel); padding: .5rem; }
+.skip:focus { transform: none; }
+
+.header, .footer { border-block-end: 1px solid var(--line); }
+.masthead, .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: .65rem 1.5rem; padding-block: 1rem; }
+.brand { font: 1.55rem var(--serif); text-decoration: none; }
+nav { display: flex; gap: .5rem 1.25rem; flex-wrap: wrap; font-size: .9rem; }
+nav a { text-decoration: none; }
+nav a:hover, nav a[aria-current] { text-decoration: underline; }
+
+.hero, .place { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(1.25rem, 5vw, 4rem); align-items: center; padding-block: clamp(2.5rem, 7vw, 5.5rem); }
+.hero h1 { font-size: clamp(3rem, 6vw, 6rem); letter-spacing: -.035em; margin: .65rem 0 1rem; overflow-wrap: anywhere; }
+.hero h1 em { color: var(--accent); font: inherit; }
+.location { color: var(--accent); font-size: .79rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+.lead { font-size: clamp(1.05rem, 1.5vw, 1.22rem); color: var(--muted); }
+.actions { margin-top: 1.25rem; display: flex; gap: .65rem 1.1rem; flex-wrap: wrap; align-items: center; }
+.button { display: inline-flex; align-items: center; gap: .65rem; background: var(--accent); color: var(--panel); text-decoration: none; padding: .7rem .95rem; }
+.hero img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+figcaption { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
+
+.facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-block: 0 3rem; border: 1px solid var(--line); background: var(--panel); }
+.facts > div { padding: .9rem; }
+.facts > div + div { border-inline-start: 1px solid var(--line); }
+.facts dt { font-size: .78rem; color: var(--accent); font-weight: 700; }
+.facts dd { margin: .2rem 0 0; }
+.facts .cite { font-size: .75rem; }
+
+.explore { padding-block: 3rem; background: var(--wash); border-block: 1px solid var(--line); }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; margin-top: 1rem; }
+.cards article { background: var(--panel); border: 1px solid var(--line); padding: 1rem; }
+.cards h3 a { display: flex; gap: .55rem; justify-content: space-between; text-decoration: none; }
+.cards p, .place p { margin-top: .55rem; color: var(--muted); }
+.place iframe { display: block; width: 100%; height: 280px; border: 1px solid var(--line); background: var(--wash); }
+
+.reading { padding-block: 3rem 4rem; min-height: 65vh; }
+.reading header, .prose { max-width: 52rem; }
+.reading h1 { font-size: clamp(2.5rem, 5.5vw, 4.7rem); margin-bottom: .6rem; }
+.prose h2 { margin: 1.75rem 0 .5rem; font-size: 2rem; }
+.prose p { margin-bottom: .8rem; }
+.prose li + li { margin-top: .4rem; }
+.prose table { width: 100%; margin-block: 1rem; border-collapse: collapse; font-size: .92rem; }
+.prose th, .prose td { text-align: left; vertical-align: top; padding: .55rem .4rem; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.footer { border-block-start: 1px solid var(--line); border-block-end: 0; }
+.footer p { color: var(--muted); font-size: .86rem; }
+
+@media (max-width: 700px) {
+  .shell { width: calc(100% - 2rem); }
+  .hero, .place, .cards { grid-template-columns: 1fr; }
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .facts > div:nth-child(3) { border-inline-start: 0; }
+  .facts > div:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .prose table { font-size: .8rem; }
+}
