@@ -6,6 +6,10 @@ description: Sarışaban Hafızası’nda kullanılan resmî kayıtlar, araştı
 
 - [Pandektis · Sarı Şaban ve Chrysoupolis](https://pandektis.ekt.gr/pandektis/handle/10442/170226) · Eski ad, yeni ad ve 1925 tarihli ad değişikliği kaydı.
 - [EETAA · İdari değişiklikler](https://eetaa.gr/eetaa/metaboles/dkmet_details.php?id=4149) · 1924 ve 1925 işlemleri ile ilgili Yunanistan Resmî Gazete nüshaları.
+- [Yunanistan Resmî Gazetesi A 193, 14 Ağustos 1924](https://www.eetaa.gr/eetaa/metaboles/fek/1924/fek_193a_1924.pdf#page=4) · Kavala ilinin kuruluşu, s. 1132.
+- [Yunanistan Resmî Gazetesi B 40, 8 Mayıs 1925](https://www.eetaa.gr/eetaa/metaboles/fek/1925/fek_40b_1925.pdf#page=2) · Sarışaban’ın ad değişikliği, s. 194.
+- [Yunanistan Resmî Gazetesi A 413, 22 Kasım 1926](https://www.eetaa.gr/eetaa/metaboles/fek/1926/fek_413a_1926.pdf#page=4) · Nestos çevresindeki köy adları, s. 3280.
+- [Eleni Kyramargiou · Yer adları ve nüfus](https://helios-eie.ekt.gr/EIE/bitstream/10442/17987/1/E17_metonomasies_makedonia-17-46.pdf) · 1913 sayımında Sarışaban merkezi ve idari bölgesi, s. 150 ve Tablo 4.
 - [ELSTAT · 2021 nüfus sayımı](https://www.statistics.gr/documents/20181/17286366/FEK-2024-Tefxos-B-02090.pdf/d4daffb1-7210-a172-9729-52d4771ae785) · Chrysoupoli yerleşimi ve belediye birimi, satır 875–877.
 - [Visit Kavala · Chrysoupoli](https://www.visitkavala.gr/en/sightseeing/xrisoupoli/) · Nestos Belediyesi merkezi ve bugünkü konum.
 

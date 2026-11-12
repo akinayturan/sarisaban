@@ -8,7 +8,9 @@ Trakya Üniversitesi açık arşivindeki çalışmanın 4. tablosu, Sarışaban 
 
 ## Gümüşhacıköy’e sevk edilen haneler
 
-Gümüşhacıköy Kaymakamlığının 17 Haziran 1924 tarihli yazısına dayanan araştırmada, o tarihe kadar ilçeye Sarışaban’dan **5 hanede 16 kişinin** sevk edildiği belirtilir. Yazının arşiv numarası **BCA 272.11/18.87.11**. Bu kaynak hanelerin toplamını, vapur tablosu ise bir seferi belgeliyor. Hane veya yolcu listesi bulunduğunda kişi düzeyinde bağlantı kurulabilir. [Serdal Balcı, s. 45 ve dipnot 44](https://dergipark.org.tr/tr/download/article-file/273514#page=6) · [Gümüşhacıköy Hafızası](https://gumushacikoy.pages.dev/yazilar/sarisabandan-gumushacikoye/)
+Gümüşhacıköy Kaymakamlığının 17 Haziran 1924 tarihli yazısına dayanan araştırmada, o tarihe kadar ilçeye Sarışaban’dan **5 hanede 16 kişinin** sevk edildiği belirtilir. Yazının arşiv numarası **BCA 272.11/18.87.11**. [Serdal Balcı, s. 45 ve dipnot 44](https://dergipark.org.tr/tr/download/article-file/273514#page=6)
+
+Temmuz 1924 için aktarılan sonraki bildirimde **Muradlı’dan 43 hanede 170 kişi** ve **Karamanlı’dan 11 hanede 46 kişi** Gümüşhacıköy’e yerleştirilenler arasında sayılır. Hane adları ve bu grupların vapur seferleriyle kişi düzeyindeki bağı henüz belgelenemedi. [Serdal Balcı, s. 45](https://dergipark.org.tr/tr/download/article-file/273514#page=6) · [Gümüşhacıköy Hafızası · Temmuz 1924](https://gumushacikoy.pages.dev/yazilar/sarisabandan-gumushacikoye/#temmuz-1924) · [Köylerin bugünkü adları]({{< relref "/yerler" >}}#eski-ve-bugunku-koy-adlari)
 
 ## Hane araştırması
 
