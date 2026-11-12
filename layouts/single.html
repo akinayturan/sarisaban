@@ -1,6 +1,8 @@
 {{ define "main" }}
 <article class="shell reading">
+  {{ if and .Parent (not .Parent.IsHome) }}<a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a>{{ end }}
   <header>
+    {{ with .Params.source_type }}<p class="location">{{ . }}</p>{{ end }}
     <h1>{{ .Title }}</h1>
     <p class="lead">{{ .Description }}</p>
   </header>

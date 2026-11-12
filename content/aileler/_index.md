@@ -1,6 +1,6 @@
 ---
 title: Aileler ve kişiler
-description: Sarışaban kazasının arşiv kayıtları, köy lakapları ve aile soy ağaçlarından aktarılan kuşaklar.
+description: Sarışaban kazasının arşiv kayıtları, köy lakapları ve aile soy ağaçları.
 ---
 ## Darova köyünün ilk kayıtları
 
@@ -28,14 +28,4 @@ Serhira’daki 2018 derlemesinde Kavacık, Kolçalar, Koçoğulları, Nedirli, M
 | Muratcık | Himmetoğulları, Bayramdedeoğulları |
 | Ulucak | Babaoğulları, Yeleklioğulları |
 
-## Ayturan ve Tütüncü aileleri {#ayturan-ve-tutuncu}
-
-Kaynak aile soy ağacıdır. Tabloda ağaçta yer alan bazı adlar ve bir üst kuşak gösteriliyor.
-
-| Aile kolu | Soy ağacındaki kişi | Soy ağacındaki bir üst kuşak |
-| --- | --- | --- |
-| Ayturan | Ahmet Ayturan | Ahmet |
-| Tütüncü | Salih Tütüncü | Kerim ve Hatice |
-| Tütüncü | Hava Tütüncü | Kerim ve Mümine |
-
-Bu ailelerin Sarışaban’daki yerleşimi ve 1924’te Gümüşhacıköy’e sevk edilen hanelerle bağı henüz belgelenemedi. Cumhuriyet Arşivi’nin **BCA 272.11/18.87.11** numaralı dosyasına atıf yapan çalışma, 17 Haziran 1924’e kadar Sarışaban’dan Gümüşhacıköy’e sevk edilen **5 hanede 16 kişi** olduğunu bildiriyor. Çalışmanın bu bölümünde hane adları yer almıyor. [Serdal Balcı, s. 45 ve dipnot 44](https://dergipark.org.tr/tr/download/article-file/273514#page=6)
+## Aile kayıtları {#ayturan-ve-tutuncu}

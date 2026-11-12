@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="shell reading">
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+    {{ with .Pages }}
+      <ul>
+        {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
